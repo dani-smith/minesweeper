@@ -14,10 +14,12 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
 }
 
 #message {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
 }
 
 .board {
@@ -26,7 +28,7 @@ body {
 }
 
 .board div {
-  color: green;
+  color: rgb(122, 5, 168);
   font-size: 2rem;
   width: 75px;
   height: 75px;
@@ -44,7 +46,7 @@ body {
 }
 
 div.mine, div.mine:hover {
-  background: no-repeat center/60% url("images/bomb.svg") crimson;
+  background: no-repeat center/80% url("images/poppins.png") rgb(252, 248, 6);
 }
 
 div.hidden {
@@ -56,5 +58,5 @@ div.hidden:hover {
 }
 
 div.marked, div.marked:hover {
-  background: no-repeat center/60% url("images/mark.svg") deepskyblue;
+  background: no-repeat center/70% url("images/mark.svg") rgb(183, 2, 219);
 }
